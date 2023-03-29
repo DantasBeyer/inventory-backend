@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 //Connect to DB and start server
 mongoose
     .connect(process.env.MONGO_URI)
-    .them (() => {
+    .then (() => {
         console.log(`Server Running on port ${PORT}`);
     })
     .catch((err) => console.log(err));
