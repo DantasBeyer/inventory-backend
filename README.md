@@ -7,3 +7,9 @@
 5. Email - Nodemailer & Outlook (Senderid for Prod...)
 6. Frontend Deploy - Vercel
 7. Backend Deploy - Render
+
+-
+server.js
+    DataBase and starter server port 5000 - Mongoose
+    Routes
+    Muddlewares
